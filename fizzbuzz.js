@@ -11,6 +11,6 @@ function fizzBuzz(num) {
   return num;
 }
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 21; i++) {
   console.log(fizzBuzz(i));
 }
