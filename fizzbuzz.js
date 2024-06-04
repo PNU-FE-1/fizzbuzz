@@ -1,3 +1,4 @@
+//fizzBuzz 기능 구현
 function fizzBuzz(num) {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FIZZBUZZ";
