@@ -19,7 +19,6 @@ function fizzBuzz(num) {
   return num;
   console.log("CONFLICT!");
 }
-
 for (let i = 1; i <= 21; i++) {
   console.log(fizzBuzz(i));
 }
