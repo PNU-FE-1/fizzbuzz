@@ -1,17 +1,24 @@
-function fizz= 0) {Buzz(num) {
-    if (i % 15 === 0) {
-	return 'FIZZBUZZ';
-    }
-    if (num % 3 === 0 && num % 5 === 0) {
-        return 'FIZZBUZZ';
-    }
-    if (num % 3 === 0) {
-        return 'FIZZ';
-    }
-    if (num % 5 === 0) {
-        return 'BUZZ';
-   }
-    return num;
+function fizzBuzz(num) {
+  if (num % 3 === 0 && num % 5 === 0) {
+    console.log("CONFLICT!");
+    return "FIZZBUZZ";
+    console.log("CONFLICT!");
+  }
+  if (num % 3 === 0) {
+    console.log("CONFLICT!");
+    return "FIZZ";
+    console.log("CONFLICT!");
+  }
+  console.log("CONFLICT!");
+  if (num % 5 === 0) {
+    console.log("CONFLICT!");
+    return "BUZZ";
+    console.log("CONFLICT!");
+  }
+  console.log("CONFLICT!");
+  return num;
+  console.log("CONFLICT!");
 }
-
-fizzBuzz(10);
+for (let i = 1; i <= 21; i++) {
+  console.log(fizzBuzz(i));
+}
