@@ -10,3 +10,5 @@ function fizzBuzz(num) {
     }
     return num;
 }
+
+fizzBuzz(10);
